@@ -100,6 +100,12 @@ If all is well, you can now access memos by running `flyctl open`. You should se
 
 ## Other
 
+### How to update to the latest memos release
+
+You can check the [status](https://github.com/hu3rror/memos-on-fly/actions/workflows/build-and-push-release-image.yml) of memos's docker image built by GitHub Actions. 
+
+If the latest docker image has been released to Docker Hub, you can upgrade memos easily by `flyctl deploy` in your project's folder.
+
 ### Custom Domains
 
 If you wish, you can [configure a custom domain for your install](https://fly.io/docs/app-guides/custom-domains-with-fly/).
