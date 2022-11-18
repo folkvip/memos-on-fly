@@ -6,9 +6,9 @@ Thanks for [linkding-on-fly](https://github.com/fspoettel/linkding-on-fly), the 
 
 ## Prerequisites
 
-  - a [fly.io](https://fly.io/) account
-  - a [backblaze](https://www.backblaze.com/) account
-  - *[Optional] If you want to build your own docker image, clone this repository and switch to [build branch](https://github.com/hu3rror/memos-on-fly/tree/build).*
+  - [fly.io](https://fly.io/) account
+  - [backblaze](https://www.backblaze.com/) account
+  - *[Optional] If you want to build your own docker image, clone this repository and switch to [main branch](https://github.com/hu3rror/memos-on-fly/tree/main).*
 
 ## Install flyctl
 
