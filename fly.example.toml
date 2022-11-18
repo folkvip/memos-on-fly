@@ -6,17 +6,18 @@ kill_timeout = 5
 processes = []
 
 [build]
-  image = "hu3rror/memos-fly:latest"                                  # do not change
+  image = "hu3rror/memos-fly:latest"                                  # Do not change unless you build your own image
 
 [env]
   DB_PATH = "/var/opt/memos/memos_prod.db"                            # do not change
+
   # Details see: https://litestream.io/guides/backblaze/
   LITESTREAM_REPLICA_BUCKET = ""                                      # change to your litestream bucket name
   LITESTREAM_REPLICA_ENDPOINT = "s3.us-west-000.backblazeb2.com"      # change to your litestream endpoint url
   LITESTREAM_REPLICA_PATH = "memos_prod.db"                           # keep the default or change to whatever path you want
 
 [mounts]
-source="memos_data"                                                        # change to your fly.io volume name
+source="memos_data"                                                   # change to your fly.io volume name
 destination="/var/opt/memos"                                          # do not change
 
 [experimental]
