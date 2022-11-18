@@ -1,6 +1,6 @@
 # memos on fly
 
-> 🔖 Run the self-hosted memo service [memos](https://github.com/usememos/memos) on [fly.io](https://fly.io/). Automatically backup the bookmark database to [B2](https://www.backblaze.com/b2/cloud-storage.html) with [litestream](https://litestream.io/).
+> Run the self-hosted memo service [memos](https://github.com/usememos/memos) on [fly.io](https://fly.io/). Automatically backup the database to [B2](https://www.backblaze.com/b2/cloud-storage.html) with [litestream](https://litestream.io/).
 
 Thanks for [linkding-on-fly](https://github.com/fspoettel/linkding-on-fly), the project is inspired by it.
 
