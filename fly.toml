@@ -1,6 +1,6 @@
 # fly.toml file generated for memos
 
-app = "memos_example"                                                 # change to whatever name you want if the name is not occupied
+app = "mememos"                                                 # change to whatever name you want if the name is not occupied
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -12,8 +12,8 @@ processes = []
   DB_PATH = "/var/opt/memos/memos_prod.db"                            # do not change
 
   # Details see: https://litestream.io/guides/backblaze/
-  LITESTREAM_REPLICA_BUCKET = ""                                      # change to your litestream bucket name
-  LITESTREAM_REPLICA_ENDPOINT = "s3.us-west-000.backblazeb2.com"      # change to your litestream endpoint url
+  LITESTREAM_REPLICA_BUCKET = "memosbackup"                                      # change to your litestream bucket name
+  LITESTREAM_REPLICA_ENDPOINT = "s3.us-west-004.backblazeb2.com"      # change to your litestream endpoint url
   LITESTREAM_REPLICA_PATH = "memos_prod.db"                           # keep the default or change to whatever path you want
 
 [mounts]
